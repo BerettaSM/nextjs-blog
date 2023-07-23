@@ -1,8 +1,7 @@
-import { createPortal } from 'react-dom';
 import { useEffect, useState } from 'react';
 import classes from './ContactForm.module.css';
 
-import Notification from '../ui/notification';
+import Notification from '@/ui/Notification';
 
 export default function ContactForm() {
     const [email, setEmail] = useState('');

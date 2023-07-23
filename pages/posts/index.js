@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import AllPosts from '../../components/posts/AllPosts';
+import AllPosts from '@/components/posts/AllPosts';
 
-import { getAllPosts } from '../../lib/posts-util';
+import { getAllPosts } from '@/lib/posts-util';
 
 export default function AllPostsPage({ allPosts }) {
     return (

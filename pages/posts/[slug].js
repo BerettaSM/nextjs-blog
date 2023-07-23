@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import PostContent from '../../components/posts/post-detail/PostContent';
+import PostContent from '@/components/posts/post-detail/PostContent';
 
 import { getPostsFiles, getPostData } from '../../lib/posts-util';
 
